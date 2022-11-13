@@ -5,8 +5,41 @@ header{display: flex;
 nav{padding-bottom: 1rem;}
 nav>a{background-color: black;
     color: #bdbdb0;
-font-size: large;
-padding: .3rem;}
+font-size: xx-small;
+padding: .1rem;}
+nav>a:hover{background-color: #bdbdb0;
+color: black;
+}
+.flex-container{
+align-items: center;}
+section{display: flex;
+align-items: center;}
+section>h1{padding-right: 6rem;
+text-align: center;
+font-size: 2rem;
+padding-left: 1rem;}
+section>p{border: 2px solid black;
+padding: 1rem;
+font-size: small;}
+#section-2{font-size: 2rem;
+    padding-left: 1rem;
+padding-right: 6rem;
+text-align: center;}
+#image-1{padding: 2rem;}
+#images-2{display: flex;
+    align-items: center;}
+#work>p, #goals>p{border: 2px solid black;
+padding: 1rem;}
+#photos{flex-direction: column;
+padding: 3rem;}
+#labels{border: 2px solid black;
+padding: 1rem;}
+#images{padding: 2rem;}
+#home-images{size: 100px;}
+@media(min-width: 850px){nav>a{background-color: black;
+    color: #bdbdb0;
+font-size: 1.5rem;
+padding: .1rem;}
 nav>a:hover{background-color: #bdbdb0;
 color: black;
 }
@@ -21,17 +54,7 @@ padding-left: 1rem;}
 section>p{border: 2px solid black;
 padding: 1rem;
 font-size: xx-large;}
-#section-2{font-size: 3rem;
+#section-2{font-size: 4rem;
     padding-left: 1rem;
 padding-right: 6rem;
-text-align: center;}
-#image-1{padding: 2rem;}
-#images-2{display: flex;
-    align-items: center;}
-#work>p, #goals>p{border: 2px solid black;
-padding: 1rem;}
-#photos{flex-direction: column;
-padding: 3rem;}
-#labels{border: 2px solid black;
-padding: 1rem;}
-#images{padding: 2rem;}
+text-align: center;}}
